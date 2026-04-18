@@ -1,1 +1,43 @@
-@import url(./global.css);
+@import url("./global.css");
+
+header {
+    display: flex; /*para o grupo fique ao lado do outro */
+    justify-content: space-between; /* colocar nas extremidades */
+    align-items: center; /* centralização na vertical */
+    padding: 30px; /* Espaçamento interno */
+    border-bottom: 0.7px solid var(--color-gray-3); /* Borda inferior */
+}
+
+.container-nav-header{
+    display: flex; /*para o grupo fique ao lado do outro */
+    align-items: center; /* centralização na vertical */
+    gap: 70px; /* Distancia entre os elementos */
+}
+
+.navigation-header ul { /* só vai estilizar a tag ul que estiver dentro de navigation: */
+    display: flex; /* para que o grupo fique um do lado do outro */
+    gap: 40px; /* distancia entre os elementos */
+    list-style: none; /* tirar as bolinhas da lista */
+
+}
+
+.navigation-header ul li a{
+    text-decoration: none; /*decoração do texto */ 
+    color: var(--color-black);
+    font-family: var(--font-family-primary); /*familia da fonte */
+
+}
+
+.navigation-header ul li .menu-active{
+    color: var(--color-blue);
+}
+
+.btn-header{
+    font-family: var(--font-family-primary); /* altera a fonte */
+    text-decoration: none; 
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: var(--font-weight-button);
+}
