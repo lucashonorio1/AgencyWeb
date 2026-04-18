@@ -29,15 +29,82 @@ header {
 }
 
 .navigation-header ul li .menu-active{
-    color: var(--color-blue);
+    color: var(--color-blue); /*cor da fonte */
 }
 
 .btn-header{
     font-family: var(--font-family-primary); /* altera a fonte */
     text-decoration: none; 
-    background-color: var(--color-blue);
+    background-color: var(--color-blue); /*cor de fundo */
     color: var(--color-white);
     border-radius: 10px;
     padding: 10px 20px;
     font-weight: var(--font-weight-button);
+}
+
+    /*-----MAIN------*/
+
+main {
+    display:flex; /* para que o grupo fique um do lado do outro */
+    justify-content: center; /* colocar nas extremidades */
+    align-items: center; /* centralização na vertical */
+    gap: 50px; /* distancia entre os elementos */
+    background-color: var(--color-blue-10); /*cor de fundo */
+    padding: 50px 0px; /* espaçamentos interno - deixar 0 devido responsividade */
+
+}
+
+.main-content {
+    display: flex; /* para habilitar o GAP */
+    flex-direction: column; /* para deixar um embaixo do outro - coluna */
+    gap: 30px; /* espaço entre os elementos */
+    width: 520px; /*largura do elemento */
+}
+.main-content h1 {
+    font-size: var(--font-size-h1); /* tamanho da fonte */
+    font-family: var(--font-family-primary); /*altera a fonte */
+    font-weight: var(--font-wheigt-h1); /* espessura da fonte */
+}
+.main-content h1 span { /*altera a cor do texto */
+    color: var(--color-blue); /*altera a cor do texto */
+}
+.main-content p{
+    font-family: var(--font-family-primary); /*altera a cor do f */
+    color: var(--color-gray); /*altera a cor do texto */
+    line-height: 30px; /*distancia entre as linhas */
+}
+
+.container.cta{
+    display: flex; /* para habilitar o GAP */
+    gap: 10px /* espaço entre os elementos */
+}
+.btn-primary, .btn-secondary {
+    padding: 8px 55px; /*espaçamento interno */
+    border-radius: 10px; /*arredondamento da borda */
+    font-weight: var(--font-weight-button); /*espessura da fonte*/
+    text-decoration: none; /*decoração do texto*/
+    font-family: var(--font-family-primary); /*familia da fonte */
+}
+
+
+
+.btn-primary {
+    background-color: var(--color-blue); /*cor de fundo */
+    color: var(--color-white); /*cor de texto */
+    transition: o.3s; /* tempo de transição do elemento */
+}
+
+.btn-primary:hover {
+    background-color: #005e89;
+}
+
+.btn-secondary {
+    background-color: var(--color-white); /*cor de fundo */
+    color: var(--color-blue); /*cor de texto */
+    border: 1px solid var(--color-blue); /*borda do elemento */
+    transition: 0.3s; /* tempo de transição do elemento */
+}
+
+.btn-secondary:hover {
+    background-color: #e6e6e6;
 }
