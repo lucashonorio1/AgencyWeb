@@ -212,3 +212,30 @@ main {
     line-height: 27px;
     width: 445px;
 }
+
+/* section-benefit */
+
+.section-benefit{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.card-benefit{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+    padding: 60px 48px;
+    border-radius: 20px;
+}
+
+.card-benefit p{
+    width: 458px;
+    
+}
+
+.card-benefit-secondary{
+    background-color: #f4f4f4
+
+
+}
