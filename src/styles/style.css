@@ -109,31 +109,106 @@ main {
     background-color: #e6e6e6;
 }
 
-.section-services{
+.section-services {
     display: grid;
     grid-template-columns: repeat(4, max-content);
-    gap: 25px;
     justify-content: center;
-    padding: 30px, 0;
-    border-bottom: 0.7px solid var(--color-gray-3)
-    
+    gap: 25px;
+    padding: 30px 0;
+    border-bottom: 0.7px solid var(--color-gray-3);
 }
 
-.container-item-services{
+.container-item-services {
     display: flex;
     gap: 15px;
     align-items: center;
-
 }
 
 .container-item-services h2{
     font-family: var(--font-family-primary);
-    font-weight: var(--font-wheigt-h4);
+    font-weight: var(--font-weight-h4);
     font-size: var(--font-size-h4);
 }
 
-.container-item-services p {
+.container-item-services p{
     font-family: var(--font-family-primary);
     color: var(--color-gray-2);
     font-size: var(--font-size-caption);
+}
+
+/* ----------------section-details ------------- */
+
+.section-details{
+    display: flex; /*habilitar o gap */
+    flex-direction: column; /* elementos em coluna */
+    gap: 80px; /*distancia entre os elementos */
+    align-items: center; /* cuida da horizontal (flex-direction: collumn */
+    padding: 80px 0; /*espaçamento entre as bordas */
+}
+
+.details-presentation{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+
+.details-presentation h2{
+    font-size: var(--font-size-h2);
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-h2);
+}
+
+.details-presentation p{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    color: var(--color-gray-2);
+    width: 665px;
+    margin: 0 auto;
+}
+
+.service-description {
+    display: flex; /*habilitar o gap - deixar um ao lado do outro */
+    gap: 60px; /*distancia entre os elementos */
+    align-items: center; /* cuida da horizontal (flex-direction: collumn */
+}
+
+.content-service {
+    display: flex; /*habilitar o gap */
+    gap: 40px; /* distancia entre os elementos */
+    flex-direction: column; /* deixar em coluna */
+}
+.service-details{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.service-details div span{
+    font-size: var(--font-size-h4); /* tamanho da fonte */
+    font-weight: var(--font-weight-h4); /*espessura da fonte*/
+    font-family: var(--font-family-primary); /*fonte*/
+}
+
+.service-details div p{
+    font-size: var(--font-size-caption); /* tamanho da fonte */
+    font-family: var(--font-family-primary); /*fonte*/
+    color: var(--color-gray-2); /* cor */
+}
+
+.content-service h3{
+
+    font-size: var(font-size-h3); /* tamanho da fonte */
+    font-family: var(--font-family-primary); /* familia da fonte */
+    font-weight: var(--font-wwight-h3);
+    width: 420px;
+}
+.content-service h3 span {
+    color: var(--color-blue);
+}
+.content-service p {
+    color: var(--color-gray);
+    font-family: var(--font-family-primary);
+    line-height: 27px;
+    width: 445px;
 }
