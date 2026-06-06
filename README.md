@@ -87,7 +87,7 @@ Antes de começar, você vai precisar ter instalado um editor para trabalhar com
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-#### **Front-End**  ([ReactJS](https://reactjs.org/)) 
+#### **Front-End** 
 
 -   **HTML**
 -   **CSS**
