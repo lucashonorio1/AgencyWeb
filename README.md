@@ -52,13 +52,6 @@ Tags Semânticas: Uso correto de boas práticas de semântica para garantir um c
 
 <!-- ---------------------------------------------------------------------- -->
 
-<!-- MODELO FUNCIONALIDADES: -->
-## ⚙️ Funcionalidades
-
-<!-- EXEMPLO DE FUNCIONALIDADES: -->
-- [x] Se o usuário não enviar mensagens dentro de 1 minuto o chat deve responder uma mensagem automaticamente.
-- [x] Se o usuário ficar inativo por 3 minutos o chat se encerra
-
 ---
 
 <!-- ---------------------------------------------------------------------- -->
