@@ -400,3 +400,133 @@ footer{
     background-color: var(--color-blue-10);
     transform: translateY(-10px);
 }
+
+@media (max-width: 884px) {
+   main {
+       flex-direction: column-reverse;
+   }
+   main img {
+       width: 400px;
+   }
+  .main-content {
+       text-align: center;
+   }
+
+
+   .container-cta {
+       justify-content: center;
+   }
+
+
+   .section-services {
+       grid-template-columns: repeat(2, max-content);
+       gap: 50px 90px;
+   }
+
+
+   .details-presentation h2 {
+       width: 480px;
+       margin: 0 auto;
+   }
+
+
+   .details-presentation p {
+       width: 450px;
+   }
+
+
+   .service-description {
+       flex-direction: column;
+   }
+ .section-benefit {
+       flex-direction: column;
+       align-items: center;
+   }
+
+
+   .section-company {
+       flex-direction: column;
+       align-items: center;
+   }
+
+
+   .container-company {
+       display: grid;
+       grid-template-columns: repeat(2, max-content);
+   }
+}
+
+@media (max-width: 428px) {
+   .container-nav-header {
+       display: none;
+   }
+
+
+   main img {
+       width: 280px;
+   }
+
+
+   .main-content h1 {
+       font-size: var(--font-size-h3);
+       width: 375px;
+       margin: 0 auto;
+   }
+
+
+   .main-content p {
+       width: 375px;
+       margin: 0 auto;
+   }
+
+
+   .section-services {
+       grid-template-columns: max-content;
+   }
+
+
+   .details-presentation h2 {
+       width: 360px;
+       font-size: var(--font-size-h3);
+   }
+
+
+   .details-presentation p {
+       width: 360px;
+   }
+
+
+   .service-details {
+       width: 360px;
+   }
+
+
+   .card-benefit p {
+       width: 300px;
+   }
+
+
+   .section-company {
+       flex-direction: column;
+       align-items: center;
+   }
+
+
+   .container-company {
+       grid-template-columns: repeat(2, 1fr);
+       display: grid;
+   }
+
+
+
+
+   .section-contact form input {
+       width: 250px;
+   }
+
+
+   .footer-informations {
+       flex-direction: column;
+       align-items: center;
+   }
+}
